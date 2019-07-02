@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import Generator from "./Generator";
-class Header extends Component {
+class App extends Component {
   render() {
     return (
       <div>
@@ -14,4 +14,4 @@ class Header extends Component {
   }
 }
 
-export default Header;
+export default App;
