@@ -1,9 +1,9 @@
-# Meme Generator
-[Demo of Meme Generator Here](https://yog9.github.io/meme-generator/)
+# MeMe Generator
+[Demo of MeMe Generator Here](https://yog9.github.io/meme-generator/)
 
 ## Summary
 
-Meme Generator uses an api using axios to fetch images.User can insert text on different images to make memes.
+MeMe Generator uses an api to fetch images by using axios. User can insert text on different images to make memes.
 
 ### Motivation
 The purpose of this project was to get familiar with React js.
