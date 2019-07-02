@@ -44,8 +44,7 @@ class Generator extends Component {
           <div
             className="top"
             style={
-              ({ fontSize: parseInt(this.state.font) + "px" },
-              { color: this.state.color })
+              { color: this.state.color }
             }
           >
             {this.state.upperText}
@@ -73,13 +72,6 @@ class Generator extends Component {
             type="text"
             name="lowerText"
             placeholder="Enter Lower Text"
-            onChange={this.handleChange}
-          />
-          <br />
-          <input
-            type="text"
-            name="font"
-            placeholder="Enter Font Size"
             onChange={this.handleChange}
           />
           <br />
