@@ -4,7 +4,6 @@ class Generator extends Component {
   state = {
     upperText: "",
     lowerText: "",
-    font: 15,
     color: "white",
     img: [],
     img_src: "https://i.imgflip.com/1bij.jpg"
@@ -83,9 +82,6 @@ class Generator extends Component {
           />
           <br />
           <button onClick={this.handleGenerate}>Change Image</button>
-          <a download href={this.state.img_src}>
-            <button>Download</button>
-          </a>
         </div>
       </div>
     );
